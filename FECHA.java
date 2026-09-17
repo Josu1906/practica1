@@ -64,7 +64,7 @@ public class FECHA {
 		int i = 0;
 		int j = 0;
 		
-		restoDias = restoDias + Math.abs(recuentoDias() - fecha.recuentoDias());
+		restoDias = restoDias + (recuentoDias() - fecha.recuentoDias());
 		
 		return restoDias;
 	}
